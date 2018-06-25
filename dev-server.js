@@ -3,7 +3,7 @@ const liveServer = require("live-server");
 const params = {
     port: 8181,
     host: "0.0.0.0",
-    root: "./base_starter",
+    root: "./",
     file: "index.html",
     open: false,
     wait: 1000,
