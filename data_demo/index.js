@@ -29,13 +29,14 @@ function runDataDemo() {
     render(data)
 }
 
-// runDataDemo();
+runDataDemo();
 
 var fnData = [];
 var next = function next(x) {
     return 15 + x*x; 
 }
 var newData = function newData(){
+    if(fnData.length > 10)fnData = [];
     fnData.push(next);
     return fnData;
 }
