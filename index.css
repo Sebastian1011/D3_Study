@@ -5,3 +5,15 @@
     text-align: right;
     margin: 5px 0;
 }
+
+.v-bar {
+    width: 40px;
+    background-color: lightblue;
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.v-bar span{
+    margin: 0 auto;
+}
