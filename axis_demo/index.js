@@ -42,4 +42,7 @@ function renderAll(orient){
 
 init();
 createSvg();
-renderAll('left')
+renderAll()
+
+// 动态调整座标坐的方法： 重新设置axis的domain然后callaxis就ok了
+
