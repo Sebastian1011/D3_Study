@@ -34,3 +34,9 @@
     background-color: darkgray;
     margin: 10px;
 }
+
+.line {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 5px
+}
